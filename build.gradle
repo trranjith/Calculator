@@ -36,10 +36,17 @@ dependencies {
 
 
 
-clean {
+/*clean {
 	doLast {
         println 'cleaned previous build'
     }
+}*/
+
+task cleanBuild (type : Delete) {
+	delete 'build'
+	doLast {
+		println 'Deletion complete'
+	}
 }
 
 compileJava {
