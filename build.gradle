@@ -4,6 +4,9 @@ plugins {
 	//id "java"
 	id "war"
 }
+plugins {
+	id "java"
+}
 
 apply plugin: JavaPlugin//'java'
 //apply plugin: 'war'
@@ -27,6 +30,8 @@ repositories {
     	url "https://repox.sonarsource.com/sonarsource"
   	}
 }
+
+
 
 dependencies {
 	compile group:'javax.servlet',name:'servlet-api', version:'2.5'
