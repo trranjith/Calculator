@@ -9,7 +9,7 @@
 table {
 	margin: auto;
      width: 50%;
-     border: 3px solid green;
+     border: 3px solid red;
      background-color: #b0e0e6;
     padding: 10px;
 }
