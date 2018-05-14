@@ -22,7 +22,7 @@ span {
 </style>
 </head>
 
-<body BGCOLOR="RED">
+<body BGCOLOR="GOLD">
 
 
 <table>
